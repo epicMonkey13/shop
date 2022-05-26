@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <!-- hamburger -->
+   <header>
+    <nav class="navbar">
+      <div class="name">Name</div>
+      <a href="#" id="nav-toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div id="nav-items">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="mailto:gulmira.cup@gmail.com">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- end of hamburger -->
+  <!-- shopping list -->
+  <div id='shopping-list-wrapper'>
+    <h1 id='dynamic-shopping-list'> Dynamic shopping list</h1>
+    <label for="item">Enter a new item:</label>
+    <input type="text" name="item" id="item">
+    <button id='adding-button'>Add item</button>
+  </div>
+  <ul id='shopping-list'>
+  </ul>
+  <br>
+    <!-- end of shopping list -->
+<!-- mon less     -->
+<h2>classes</h2>
+<p> a cocktail p should appear below</p>
+<br>
+<p id="demo"></p>
+  <script src='app.js'></script>
+</body>
+</html>
